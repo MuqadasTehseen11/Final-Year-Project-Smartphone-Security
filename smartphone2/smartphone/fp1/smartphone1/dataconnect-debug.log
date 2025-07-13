@@ -1,0 +1,15 @@
+I1107 19:59:30.797762     680 load.go:37] Reloading schema and connectors...
+I1107 19:59:30.811961     680 control.go:45] [engine.Service /emulator/fp1 6e65] UpdateSchema(): done sources: schema\schema.gql [1384B] 
+I1107 19:59:30.821796     680 control.go:73] [engine.Service /emulator/fp1 6e65] UpdateConnector(default): done sources: connector\mutations.gql [1163B] connector\queries.gql [1855B] 
+I1107 19:59:30.896641     680 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "C:\\Users\\BS COM\\fp1\\dataconnect-generated\\js\\default-connector"
+I1107 19:59:30.898909     680 collector.go:107] schema extensions wrote into "C:\\Users\\BS COM\\fp1\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [61293B] 
+I1107 19:59:30.899726     680 collector.go:107] connector "default" javascriptSdk wrote into "C:\\Users\\BS COM\\fp1\\dataconnect-generated\\js\\default-connector"
+Generated sources: index.d.ts [264B] esm\index.esm.js [176B] esm\package.json [17B] index.cjs.js [217B] package.json [623B] 
+I1107 19:59:30.977673     680 installsdk.go:76] Running command: C:\Program Files\nodejs\npm.cmd install file:dataconnect-generated\js\default-connector
+E1107 19:59:35.928465     680 installsdk.go:78] Failed to install package: exit status 1
+I1107 19:59:35.928465     680 load.go:115] Finished reloading
+I1107 19:59:35.931583     680 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I1107 19:59:35.932095     680 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+I1107 19:59:36.862524     680 control.go:45] [engine.Service /emulator/fp1 5781] UpdateSchema(): done sources: schema\schema.gql [1384B] 
+I1107 19:59:36.862524     680 control.go:73] [engine.Service /emulator/fp1 5781] UpdateConnector(default): done sources: connector\mutations.gql [1163B] connector\queries.gql [1855B] 
